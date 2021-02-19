@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Web App</title>
+    <link rel="stylesheet" href="../CSS Files/calculator.css">
+
+</head>
+<body >
+    <div class="outer">
+        <div class="inner">
+            <h1 style="text-align: center;">Calculator</h1>
+            <div class="value">
+                <label>Value1:</label>
+                <input type="text" id="val1">
+            </div>
+            <div class="value">
+                <label>Value2:</label>
+                <input type="text" id="val2">
+            </div>
+            <div class="value">
+                <button class="btn"  onclick="Add()">+</button>
+                <button class="btn"  onclick="Sub()">-</button>
+                <button class="btn"  onclick="Mul()">*</button>
+                <button class="btn"  onclick="div()">/</button>
+            </div>
+            <div class="value">
+                <label>Result:</label>
+               <input type="text" id="result"></div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="../JavaScript Files/calculator.js"></script>
+    
+</body>
+</html>
